@@ -80,6 +80,9 @@ namespace Kalkulator_Procentowy
 
         }
 
-      
+        private void textBoxAmount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

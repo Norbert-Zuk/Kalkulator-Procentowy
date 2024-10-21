@@ -32,7 +32,6 @@
             this.comboBoxAlcohol = new System.Windows.Forms.ComboBox();
             this.labelAlcohol = new System.Windows.Forms.Label();
             this.comboBoxCapacity = new System.Windows.Forms.ComboBox();
-            this.comboBoxAmount = new System.Windows.Forms.ComboBox();
             this.labelCapacity = new System.Windows.Forms.Label();
             this.labelAmount = new System.Windows.Forms.Label();
             this.buttonConfirm = new System.Windows.Forms.Button();
@@ -41,16 +40,17 @@
             this.labelAmountResult = new System.Windows.Forms.Label();
             this.labelAlcoholResult = new System.Windows.Forms.Label();
             this.labelBeerImagine = new System.Windows.Forms.Label();
+            this.textBoxAmount = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Font = new System.Drawing.Font("Sitka Text", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.Font = new System.Drawing.Font("Yu Gothic UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelTitle.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.labelTitle.Location = new System.Drawing.Point(3, 34);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(476, 53);
+            this.labelTitle.Size = new System.Drawing.Size(473, 54);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "Kalkulator ALKOHOLOWY";
             this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -89,15 +89,6 @@
             this.comboBoxCapacity.TabIndex = 4;
             this.comboBoxCapacity.SelectedIndexChanged += new System.EventHandler(this.comboBoxCapacity_SelectedIndexChanged);
             // 
-            // comboBoxAmount
-            // 
-            this.comboBoxAmount.FormattingEnabled = true;
-            this.comboBoxAmount.Location = new System.Drawing.Point(410, 301);
-            this.comboBoxAmount.Name = "comboBoxAmount";
-            this.comboBoxAmount.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxAmount.TabIndex = 6;
-            this.comboBoxAmount.SelectedIndexChanged += new System.EventHandler(this.comboBoxAmount_SelectedIndexChanged);
-            // 
             // labelCapacity
             // 
             this.labelCapacity.BackColor = System.Drawing.Color.Silver;
@@ -115,8 +106,7 @@
             // labelAmount
             // 
             this.labelAmount.BackColor = System.Drawing.Color.Silver;
-            this.labelAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelAmount.Font = new System.Drawing.Font("Sitka Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelAmount.Font = new System.Drawing.Font("Sitka Text", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelAmount.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.labelAmount.Location = new System.Drawing.Point(12, 264);
             this.labelAmount.Name = "labelAmount";
@@ -128,7 +118,7 @@
             // 
             // buttonConfirm
             // 
-            this.buttonConfirm.BackColor = System.Drawing.Color.OliveDrab;
+            this.buttonConfirm.BackColor = System.Drawing.Color.SeaGreen;
             this.buttonConfirm.Font = new System.Drawing.Font("Sitka Text", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonConfirm.Location = new System.Drawing.Point(49, 345);
             this.buttonConfirm.Name = "buttonConfirm";
@@ -191,12 +181,21 @@
             this.labelBeerImagine.TabIndex = 14;
             this.labelBeerImagine.Click += new System.EventHandler(this.labelBeerImagine_Click);
             // 
+            // textBoxAmount
+            // 
+            this.textBoxAmount.Location = new System.Drawing.Point(410, 301);
+            this.textBoxAmount.Name = "textBoxAmount";
+            this.textBoxAmount.Size = new System.Drawing.Size(121, 20);
+            this.textBoxAmount.TabIndex = 16;
+            this.textBoxAmount.TextChanged += new System.EventHandler(this.textBoxAmount_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(584, 561);
+            this.Controls.Add(this.textBoxAmount);
             this.Controls.Add(this.labelAlcoholResult);
             this.Controls.Add(this.labelBeerImagine);
             this.Controls.Add(this.labelAmountResult);
@@ -205,7 +204,6 @@
             this.Controls.Add(this.buttonConfirm);
             this.Controls.Add(this.labelAmount);
             this.Controls.Add(this.labelCapacity);
-            this.Controls.Add(this.comboBoxAmount);
             this.Controls.Add(this.comboBoxCapacity);
             this.Controls.Add(this.labelAlcohol);
             this.Controls.Add(this.comboBoxAlcohol);
@@ -225,7 +223,6 @@
         private System.Windows.Forms.ComboBox comboBoxAlcohol;
         private System.Windows.Forms.Label labelAlcohol;
         private System.Windows.Forms.ComboBox comboBoxCapacity;
-        private System.Windows.Forms.ComboBox comboBoxAmount;
         private System.Windows.Forms.Label labelCapacity;
         private System.Windows.Forms.Label labelAmount;
         private System.Windows.Forms.Button buttonConfirm;
@@ -234,6 +231,7 @@
         private System.Windows.Forms.Label labelAmountResult;
         private System.Windows.Forms.Label labelBeerImagine;
         private System.Windows.Forms.Label labelAlcoholResult;
+        private System.Windows.Forms.TextBox textBoxAmount;
     }
 }
 
