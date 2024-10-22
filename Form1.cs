@@ -51,6 +51,8 @@ namespace Kalkulator_Procentowy
         double finalAlkoholCapacity = 0;
         double finalAlkoholVolume = 0;
 
+        Boolean operationOk = false;
+
         private void getUserInput()
         {
             inputAlkohol = getComboBoxInput(comboBoxAlcohol, alkoholOpt1, alkoholOpt2, alkoholOpt3, alkoholOpt4,
@@ -121,6 +123,19 @@ namespace Kalkulator_Procentowy
             comboBoxCapacity.Items.Add(capacityOpt4);
         }
 
+        private void calculations()
+        {
+            finalAlkoholCapacity = inputCapacity * inputAmount;
+            finalAlkoholVolume = (int)(finalAlkoholCapacity * (inputAlkohol / 100.0));
+        }
+
+        private void clearFields() 
+        {
+            comboBoxAlcohol.Text = "";
+            comboBoxCapacity.Text = "";
+            textBoxAmount.Text = "";
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -166,6 +181,29 @@ namespace Kalkulator_Procentowy
         {
             // Jak kolory ci nie pasują to mów jak cos bo sa słabe
             // plus ja ten przycisk po wyświetlenie wyniku zamieniłbym w cleara bo na cleara nie znalazlem miejsca i bedzie tak clean
+
+            // ok
+
+            getUserInput();
+
+            if (inputAlkohol != -1 && inputCapacity != -1 && inputAmount != -1)
+            {
+                calculations();
+                labelCapacityResult.Text = finalAlkoholCapacity.ToString() + " ml";
+                labelVolumeResult.Text = finalAlkoholVolume.ToString() + " ml";
+
+                DialogResult result = MessageBox.Show("Czy Chcesz Wyczyścić Wszystkie Pola?", "Sukces! Operacja się Powiodła!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    clearFields();
+                }
+            }
+            else
+            {
+                clearFields();
+                MessageBox.Show("Niepoprawnie Wypełnione Pola! Spróbuj Ponownie!");
+            }
         }
 
         private void comboBoxAlcohol_SelectedIndexChanged(object sender, EventArgs e)

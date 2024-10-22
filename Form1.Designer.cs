@@ -37,10 +37,11 @@
             this.buttonConfirm = new System.Windows.Forms.Button();
             this.labelResultText = new System.Windows.Forms.Label();
             this.labelResultText2 = new System.Windows.Forms.Label();
-            this.labelAmountResult = new System.Windows.Forms.Label();
-            this.labelAlcoholResult = new System.Windows.Forms.Label();
+            this.labelVolumeResult = new System.Windows.Forms.Label();
+            this.labelCapacityResult = new System.Windows.Forms.Label();
             this.labelBeerImagine = new System.Windows.Forms.Label();
             this.textBoxAmount = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // labelTitle
@@ -152,25 +153,25 @@
             this.labelResultText2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.labelResultText2.Click += new System.EventHandler(this.labelResultText2_Click);
             // 
-            // labelAmountResult
+            // labelVolumeResult
             // 
-            this.labelAmountResult.BackColor = System.Drawing.Color.White;
-            this.labelAmountResult.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelAmountResult.Location = new System.Drawing.Point(456, 477);
-            this.labelAmountResult.Name = "labelAmountResult";
-            this.labelAmountResult.Size = new System.Drawing.Size(75, 35);
-            this.labelAmountResult.TabIndex = 13;
-            this.labelAmountResult.Click += new System.EventHandler(this.labelAmountResult_Click);
+            this.labelVolumeResult.BackColor = System.Drawing.Color.White;
+            this.labelVolumeResult.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelVolumeResult.Location = new System.Drawing.Point(456, 477);
+            this.labelVolumeResult.Name = "labelVolumeResult";
+            this.labelVolumeResult.Size = new System.Drawing.Size(75, 35);
+            this.labelVolumeResult.TabIndex = 13;
+            this.labelVolumeResult.Click += new System.EventHandler(this.labelAmountResult_Click);
             // 
-            // labelAlcoholResult
+            // labelCapacityResult
             // 
-            this.labelAlcoholResult.BackColor = System.Drawing.Color.White;
-            this.labelAlcoholResult.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelAlcoholResult.Location = new System.Drawing.Point(456, 421);
-            this.labelAlcoholResult.Name = "labelAlcoholResult";
-            this.labelAlcoholResult.Size = new System.Drawing.Size(75, 35);
-            this.labelAlcoholResult.TabIndex = 15;
-            this.labelAlcoholResult.Click += new System.EventHandler(this.labelAlcoholResult_Click);
+            this.labelCapacityResult.BackColor = System.Drawing.Color.White;
+            this.labelCapacityResult.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelCapacityResult.Location = new System.Drawing.Point(456, 421);
+            this.labelCapacityResult.Name = "labelCapacityResult";
+            this.labelCapacityResult.Size = new System.Drawing.Size(75, 35);
+            this.labelCapacityResult.TabIndex = 15;
+            this.labelCapacityResult.Click += new System.EventHandler(this.labelAlcoholResult_Click);
             // 
             // labelBeerImagine
             // 
@@ -189,6 +190,10 @@
             this.textBoxAmount.TabIndex = 16;
             this.textBoxAmount.TextChanged += new System.EventHandler(this.textBoxAmount_TextChanged);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,9 +201,9 @@
             this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(584, 561);
             this.Controls.Add(this.textBoxAmount);
-            this.Controls.Add(this.labelAlcoholResult);
+            this.Controls.Add(this.labelCapacityResult);
             this.Controls.Add(this.labelBeerImagine);
-            this.Controls.Add(this.labelAmountResult);
+            this.Controls.Add(this.labelVolumeResult);
             this.Controls.Add(this.labelResultText2);
             this.Controls.Add(this.labelResultText);
             this.Controls.Add(this.buttonConfirm);
@@ -228,10 +233,11 @@
         private System.Windows.Forms.Button buttonConfirm;
         private System.Windows.Forms.Label labelResultText;
         private System.Windows.Forms.Label labelResultText2;
-        private System.Windows.Forms.Label labelAmountResult;
+        private System.Windows.Forms.Label labelVolumeResult;
         private System.Windows.Forms.Label labelBeerImagine;
-        private System.Windows.Forms.Label labelAlcoholResult;
+        private System.Windows.Forms.Label labelCapacityResult;
         private System.Windows.Forms.TextBox textBoxAmount;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
