@@ -16,6 +16,8 @@ namespace Kalkulator_Procentowy
         {
             InitializeComponent();
             labelBeerImagine.Image = Properties.Resources.beer;
+
+            addComboBoxItems();
         }
 
         // Zapewne powinienem zaciągać te dane z zewnątrz kodu, ale niestety budżet tego nie obejmuje ...
