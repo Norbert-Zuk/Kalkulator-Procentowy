@@ -17,7 +17,40 @@ namespace Kalkulator_Procentowy
             InitializeComponent();
             labelBeerImagine.Image = Properties.Resources.beer;
         }
-  
+
+        // Zapewne powinienem zaciągać te dane z zewnątrz kodu, ale niestety budżet tego nie obejmuje ...
+
+        // Rodzaje i Stężenie Alkoholu
+        string alkoholOpt1 = "Piwo (5 %)";
+        string alkoholOpt2 = "Wino (12 %)";
+        string alkoholOpt3 = "Whisky (35 %)";
+        string alkoholOpt4 = "Wódka (50 %)";
+
+        int alkoholVol1 = 5;
+        int alkoholVol2 = 12;
+        int alkoholVol3 = 35;
+        int alkoholVol4 = 50;
+
+        // Rodzaje i Pojemność Naczyń
+        string capacityOpt1 = "Kufel do piwa (800 ml)";
+        string capacityOpt2 = "Kieliszek do wina (150 ml)";
+        string capacityOpt3 = "Szklanka do whisky (180 ml)";
+        string capacityOpt4 = "Kieliszek do wódki (60 ml)";
+
+        int alkoholCap1 = 800;
+        int alkoholCap2 = 220;
+        int alkoholCap3 = 180;
+        int alkoholCap4 = 60;
+
+        // Input Wprowadzającego
+        double inputAlkohol = 0;
+        int inputCapacity = 0;
+        int inputAmount = 0;
+
+        // Finalne Wartości
+        double finalAlkoholCapacity = 0;
+        double finalAlkoholVolume = 0;
+
         private void label1_Click(object sender, EventArgs e)
         {
 

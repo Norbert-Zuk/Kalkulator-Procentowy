@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\damia\\source\\repos\\Kalkulator-Procentowy\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo T480\\Desktop\\GitHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8239B2F4-5FD3-4E1D-B442-A848573A80D7}|Kalkulator Procentowy.csproj|C:\\Users\\damia\\source\\repos\\Kalkulator-Procentowy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8239B2F4-5FD3-4E1D-B442-A848573A80D7}|Kalkulator Procentowy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8239B2F4-5FD3-4E1D-B442-A848573A80D7}|Kalkulator Procentowy.csproj|C:\\Users\\Lenovo T480\\Desktop\\GitHub\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8239B2F4-5FD3-4E1D-B442-A848573A80D7}|Kalkulator Procentowy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8239B2F4-5FD3-4E1D-B442-A848573A80D7}|Kalkulator Procentowy.csproj|c:\\users\\damia\\source\\repos\\kalkulator-procentowy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8239B2F4-5FD3-4E1D-B442-A848573A80D7}|Kalkulator Procentowy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8239B2F4-5FD3-4E1D-B442-A848573A80D7}|Kalkulator Procentowy.csproj|c:\\users\\lenovo t480\\desktop\\github\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8239B2F4-5FD3-4E1D-B442-A848573A80D7}|Kalkulator Procentowy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,24 +54,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\damia\\source\\repos\\Kalkulator-Procentowy\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo T480\\Desktop\\GitHub\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\damia\\source\\repos\\Kalkulator-Procentowy\\Form1.cs",
+              "ToolTip": "C:\\Users\\Lenovo T480\\Desktop\\GitHub\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwDMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T16:41:28.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\damia\\source\\repos\\Kalkulator-Procentowy\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo T480\\Desktop\\GitHub\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\damia\\source\\repos\\Kalkulator-Procentowy\\Form1.cs [Projekt]",
+              "ToolTip": "C:\\Users\\Lenovo T480\\Desktop\\GitHub\\Form1.cs [Projekt]",
               "RelativeToolTip": "Form1.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T12:21:16.705Z",
