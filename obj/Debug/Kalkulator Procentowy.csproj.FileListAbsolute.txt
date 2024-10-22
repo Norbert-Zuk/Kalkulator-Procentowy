@@ -8,3 +8,13 @@ C:\Users\damia\Source\Repos\Kalkulator-Procentowy\obj\Debug\Kalkulator Procentow
 C:\Users\damia\Source\Repos\Kalkulator-Procentowy\obj\Debug\Kalkulator Procentowy.csproj.CoreCompileInputs.cache
 C:\Users\damia\Source\Repos\Kalkulator-Procentowy\obj\Debug\Kalkulator Procentowy.exe
 C:\Users\damia\Source\Repos\Kalkulator-Procentowy\obj\Debug\Kalkulator Procentowy.pdb
+C:\Users\Lenovo T480\Desktop\GitHub\bin\Debug\Kalkulator Procentowy.exe.config
+C:\Users\Lenovo T480\Desktop\GitHub\bin\Debug\Kalkulator Procentowy.exe
+C:\Users\Lenovo T480\Desktop\GitHub\bin\Debug\Kalkulator Procentowy.pdb
+C:\Users\Lenovo T480\Desktop\GitHub\obj\Debug\Kalkulator Procentowy.csproj.AssemblyReference.cache
+C:\Users\Lenovo T480\Desktop\GitHub\obj\Debug\Kalkulator_Procentowy.Form1.resources
+C:\Users\Lenovo T480\Desktop\GitHub\obj\Debug\Kalkulator_Procentowy.Properties.Resources.resources
+C:\Users\Lenovo T480\Desktop\GitHub\obj\Debug\Kalkulator Procentowy.csproj.GenerateResource.cache
+C:\Users\Lenovo T480\Desktop\GitHub\obj\Debug\Kalkulator Procentowy.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo T480\Desktop\GitHub\obj\Debug\Kalkulator Procentowy.exe
+C:\Users\Lenovo T480\Desktop\GitHub\obj\Debug\Kalkulator Procentowy.pdb
